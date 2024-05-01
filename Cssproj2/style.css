@@ -1,0 +1,216 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color:#f5f5f5;
+}
+header {
+  height: 500px;
+  background-color: blue;
+}
+
+nav {
+  float: right;
+  margin-right: 40px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.nav-item {
+  margin-right: 20px;
+  color: #fff;
+}
+.nav-item-active {
+  background-color:#fff;
+  padding: 5px;
+  border-radius:5px;
+  margin-right:20px;
+  color: #5a31fc;
+  font-weight: 400;
+}
+.logo {
+  margin: 20px;
+}
+.header-text {
+  color: #fff;
+  margin-left: 60px;
+  float: left;
+}
+.header-image {
+  float: right;
+  margin-top: 50px;
+}
+.companies {
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.company-items {
+  text-decoration: none;
+  /* margin-right: 20px; */
+  color: #000;
+  font-weight: 600;
+  margin-left: 30px;
+}
+.api-heading {
+  font-weight: 800;
+  margin-left: 90px;
+  margin-top: 100px;
+  font-style: bold;
+}
+.cards {
+  margin-left: 90px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.card {
+  width: 20%;
+  height: 250px;
+  background-color: #fff;
+  margin-right: 30px;
+  padding: 10px;
+  border-radius: 10px;
+
+
+}
+.card-active {
+  width: 20%;
+  height:250px;
+  margin-right: 30px;
+  background-color:transparent;
+  box-shadow:0px 5px 15px #000;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+.card-logo {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.card-head-active {
+  margin-left: 30px;
+  color: #000;
+}
+.card-body {
+  margin-left: 30px;
+  color: #000;
+
+}
+.blog-heading {
+  margin-left: 90px;
+
+}
+.blog-cards {
+  margin-left: 90px;
+  display: flex;
+  flex-direction: row;
+}
+.blog-card{
+  display: flex;
+  flex-direction: row;
+}
+.blog-content {
+  width: 40%;
+  height:269px;
+  margin-right: 30px;
+  background-color:transparent;
+  box-shadow:0px 5px 15px #bc7b7b;
+  padding: 10px;
+
+}
+.blog-author {
+  font-size: small;
+  padding: 10px;
+  position: relative;
+  right: 120px;
+  top: 120px;
+}
+.blog-bottom {
+  size: small;
+  padding: 10px;
+  position: relative;
+  right: 220px;
+  top:250px
+}
+.faq-section{
+  /* margin-left: 90px; */
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  background-color:lightblue;
+  position: relative;
+}
+.faq-content{
+  margin-left: 90px;
+  float: left;
+}
+#h2{
+  font-weight: 900;
+}
+.faq-image{
+  float: right;
+  padding-left: 200px;
+}
+.download-section{
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: 200px;
+  background-color:whitesmoke;
+}
+.download-content{
+  float: left;
+}
+.download-email{
+  float: right;
+  margin-top: 30px;
+  margin-left: 700px;
+}
+input{
+  height: 41px;
+  width: 377px;;
+  position: relative;
+}
+button{
+  background-color:lightskyblue;
+  position: absolute;
+  right: auto;
+}
+
+.footer-section{
+  height: 250px;
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-left{
+  margin: 100px;
+}
+.list{
+  width:500px ;
+  display: flex;
+  justify-content: space-around
+}
+.footer-right{
+  margin: 50px;
+}
+.list-items{
+  list-style-type:none;
+  display: inline;
+  color: #f5f5f5;
+  justify-content: space-between;
+}
+.logos-list{
+  width: 250px;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-logos{
+  justify-content: space-between;
+}
